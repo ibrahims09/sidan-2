@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  font-family: 'Nunito', cursive;
+}
+
+    body{
+      background-color: lightcyan;
+      
+    }
+  
+.menu-link {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-link.active {
+  font-weight: cursive;
+  color: #FF0000; 
+ 
+}
+
+.stylesheet {
+  print-color-adjust: white;
+}
+
+header {
+  background-color: #1D1A39; 
+  color: #fff; 
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: end;
+  padding: 10px;
+  width: 100%; 
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+nav a {
+  margin-right: 1em;
+  color: white;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 20px; 
+}
+
+.project-card {
+  width: calc(50% - 20px);
+  max-width: 150px; 
+  background-color:black; 
+  padding: 20px;
+  border: 1px solid #ddd; 
+  text-align: center;
+  margin-bottom: 20px; 
+}
+
+.project-card h3 {
+  margin-top: 10px;
+}
+
+.project-card iframe {
+  width: 100%;
+  height: 150px; 
+}
+
+.content {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.profile-image-container {
+  max-width: 100%;
+  width: 20%; 
+  height: auto;
+  margin-right: 20px; 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.profile-image {
+  max-width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 35%;
+  padding: 2em;
+  margin: 0%;
+  flex-wrap: wrap;
+}
+
+.text-container {
+  flex: wrap;
+  max-width: 50%;
+  padding: 2em;
+  /* margin: 0%; */
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: #1D1A39;
+  color: #fff;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1em;
+  width: 100%; 
+  height: 25px; 
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    justify-content: center; 
+    align-items: center;
+  }
+
+  nav {
+    justify-content: center; 
+    align-items: center;
+  }
+
+  .project-card {
+    width: 200%; 
+  }
+
+  .text-container {
+    max-width: 50%; 
+    flex-wrap: wrap;
+  }
+
+  .profile-image-container {
+    max-width: 50%;
+  }
+}
+
+  cv.json{
+    color: #1D1A39;
+  }
+
+
+
+
